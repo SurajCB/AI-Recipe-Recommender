@@ -1,6 +1,8 @@
 AI-Recipe-Recommender
 AI Recipe Recommender – Enter ingredients you have at home and get instant, personalized recipe suggestions. Built with Node.js, Express, and a responsive frontend using HTML/CSS/JS. Features dark/light mode, favorites, and easy deployment on Netlify/Vercel + Render/Heroku.
 
+
+
 🍳 AI Recipe Recommender – Made by Suraj CB
 The AI Recipe Recommender helps you find recipes based on the ingredients you already have at home.
 Features:
@@ -10,6 +12,8 @@ Features:
 * Simple backend API (Node.js + Express)
 * Responsive frontend (HTML/CSS/JS)
 * Easy deployment on Netlify/Vercel (frontend) + Render/Heroku (backend)
+
+  
  
 📂 Project Structure
 AI_Recipe_Recommender/
@@ -17,7 +21,10 @@ AI_Recipe_Recommender/
 │── web/      # Frontend (HTML/CSS/JS)
 │── docs/     # Deployment guide (DOCX)
 │── README.md # Project description
- 
+
+
+
+ 
 ▶️ Running Locally
 1. Start Backend
 cd server
@@ -27,7 +34,11 @@ The API will be available at http://localhost:8080.
 2. Open Frontend
 Open web/index.html in your browser.
 Update API_BASE in web/app.js if needed.
- 
+
+
+
+
+ 
 🌍 Deployment
 Backend (Render or Heroku)
 Render (Recommended)
@@ -42,7 +53,12 @@ heroku login
 heroku create ai-recipe-recommender
 git push heroku main
 Backend URL example: https://ai-recipe-recommender.herokuapp.com
- 
+
+
+
+
+
+ 
 Frontend (Netlify or Vercel)
 Netlify
 1. Drag & drop web/ folder or connect GitHub repo
@@ -56,10 +72,18 @@ Connect Frontend & Backend
 Open web/app.js and update:
 
 const API_BASE = "https://your-backend-url.com";
- 
+
+
+
+
+
+ 
 📝 Notes
 * Use localStorage to persist favorites
 * Responsive design works across desktop and mobile
 * Auto-deploy happens on every git push
-❤️ Credits
+
+
+
+
 Made by Suraj CB
