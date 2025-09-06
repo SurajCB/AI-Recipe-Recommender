@@ -1,0 +1,78 @@
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --card: #f9f9f9;
+}
+.dark {
+  --bg: #121212;
+  --text: #eeeeee;
+  --card: #1e1e1e;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: var(--card);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #ff7043;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #f4511e;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.search {
+  margin-bottom: 1.5rem;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.card h3 {
+  margin-top: 0.5rem;
+}
+.favorite {
+  background: #ffcc80;
+  margin-top: 0.5rem;
+}

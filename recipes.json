@@ -1,0 +1,24 @@
+[
+  {
+    "id": "r1",
+    "title": "Masala Omelette",
+    "description": "Fluffy omelette with tomatoes, onions, green chilies.",
+    "ingredients": ["egg", "onion", "tomato", "green chili", "salt", "pepper", "oil"],
+    "steps": ["Beat eggs with salt and pepper.","Sauté onions, tomatoes, and chilies.","Pour eggs, cook, fold, and serve."],
+    "time": 10,
+    "cuisine": "Indian",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+    "keyIngredients": ["egg"]
+  },
+  {
+    "id": "r2",
+    "title": "Veg Fried Rice",
+    "description": "Quick wok-tossed rice with mixed veggies.",
+    "ingredients": ["rice", "carrot", "peas", "capsicum", "soy sauce", "spring onion", "oil", "garlic"],
+    "steps": ["Heat oil, sauté garlic and veggies.","Add cooked rice and soy sauce, toss.","Finish with spring onions."],
+    "time": 15,
+    "cuisine": "Indo-Chinese",
+    "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141",
+    "keyIngredients": ["rice"]
+  }
+]
